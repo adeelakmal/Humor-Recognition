@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+body{
+  margin: 0;
+  background-color: #ececec;
+  
+}
+h2{
+  margin-bottom: 0;
+  font-family: 'Bakbak One', cursive;
+  color: #FFFFFF;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+p{
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ececec;
+
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background-image: linear-gradient(#463dd7, #7e75ff);
+  padding: 0rem 2.5rem 3rem 2.5rem;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.slidecontainer{
+  margin: 10px!important;
+}
+
+.all-sliders{
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 10px;
+  padding: 5%;
+  margin:5% 0%;
+  width: fit-content!important;
+  max-width: 70%;
+  min-width: 50%
+}
+.first{
+  width: 80%!important;
+}
+
+.submit-btn{
+  width: fit-content;
+  margin-top: 5%;
+  padding: 8px 20px;
+  background: transparent;
+  border: 2px solid #655ecf;
+  border-radius: 18px;
+  font-family: fantasy;
+  color: #655ecf;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 500ms;
+}
+.submit-btn:hover:not([disabled]){
+  color: white;
+  background: #655ecf;
+}
+
+.submit-btn:disabled{
+  color: #938de4;
+  border-color: #938de4;
+}
+
+.small{
+  border-radius: 50%;
+  padding: 5px;
+  width: 35px;
+}
+
+.value{
+  font-weight: 600;
+}
+
+.question{
+  display: none;
+}
+
+.display{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* This is the styling for the curves in the hearder */
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 95px;
+}
+
+.wave .shape-fill {
+  fill: #ececec;
+}
+
+#ans{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ececec;
+}
+
+
+footer{
+  background-color: #acacac;
+}
